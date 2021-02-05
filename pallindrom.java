@@ -10,8 +10,8 @@ public class pallindrom {
 		for(int b=str1.length()-1;b>=0;b--) {
 			str2=str2+str1.charAt(b);
 			}
-		System.out.println(str2);
-		System.out.println(str1);
+        
+                //comparing two strings are equal//
 		if(str1.equals(str2)){
 			System.out.println(str1+" is a Pallindrom");
 		}
