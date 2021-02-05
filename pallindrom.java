@@ -5,6 +5,9 @@ public class pallindrom {
 	public static void main(String[] args) {
 		Scanner reader=new Scanner(System.in);
 		System.out.print("enter a string:");
+
+                //strip used to remove leading and trailing white spaces//
+ 
 		String str1=reader.next().strip();
 		String str2="".strip();
 		for(int b=str1.length()-1;b>=0;b--) {
